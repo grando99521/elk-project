@@ -20,7 +20,7 @@ This document contains the following details:
 
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
-Load balancing ensures that the application will be highly __effective___, in addition to restricting __traffic___ to the network.
+Load balancing ensures that the application will be highly __effective__, in addition to restricting __traffic__ to the network.
 - _TODO: What aspect of security do load balancers protect? What is the advantage of a jump box?_Load balances can prevent DDoS attack by shifting attack traffic. Jump box is a hardened and monitored device that can be used to access and manage devices in a separate security zone
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the __logs__ and system __traffic__.
