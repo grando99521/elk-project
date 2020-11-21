@@ -89,4 +89,4 @@ SSH into the control node and follow the steps below:
 - Run the playbook, and navigate to __http://207.46.235.44:5601/app/kibana#/home__ to check that the installation worked as expected.
 
 
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._ ansible-playbook my-playbook.yml.
+_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._ ansible-playbook playbook_name.yml.
