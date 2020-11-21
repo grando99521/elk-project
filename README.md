@@ -84,8 +84,8 @@ These Beats allow us to collect the following information from each machine:
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
-- Copy the __filebeat-config.yml__ file to ___/etc/ansible/__.
-- Update the __/etc/ansible/hosts___ file to include webserver/elkserver ip addresses
+- Copy the __filebeat-config.yml__ file to __/etc/ansible/__.
+- Update the __/etc/ansible/hosts__ file to include webserver/elkserver ip addresses
 - Run the playbook, and navigate to __http://207.46.235.44:5601/app/kibana#/home__ to check that the installation worked as expected.
 
 
