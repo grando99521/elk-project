@@ -20,15 +20,15 @@ This document contains the following details:
 
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the Vulnerable Web Application.
 
-Load balancing ensures that the application will be highly __effective__, in addition to restricting __traffic__ to the network.
+Load balancing ensures that the application will be highly effective, in addition to restricting traffic to the network.
 What aspect of security do load balancers protect? What is the advantage of a jump box? Load balances can prevent DDoS attack by shifting attack traffic. Jump box is a hardened and monitored device that can be used to access and manage devices in a separate security zone
 
-Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the __logs__ and system __traffic__.
+Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the logs and system traffic.
 What does Filebeat watch for? Filebeat watches for the log files or locations that you collect log events
 What does Metricbeat record? It collects metrics from the operating system and from services running on the server.
 
 The configuration details of each machine may be found below.
-_Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
+Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table.
 
 | Name       | Function | IP Address | Operating System |
 |------------|----------|------------|------------------|
@@ -42,7 +42,7 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 
 The machines on the internal network are not exposed to the public Internet. 
 
-Only the __home__ machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses: 123.208.49.203
+Only the home machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses: 123.208.49.203
 
 Machines within the network can only be accessed by Jump Box Provisioner: IP 10.0.0.4.
 
@@ -89,4 +89,3 @@ SSH into the control node and follow the steps below:
 - Run the playbook, and navigate to __http://207.46.235.44:5601/app/kibana#/home__ to check that the installation worked as expected.
 
 
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._ ansible-playbook playbook_name.yml.
